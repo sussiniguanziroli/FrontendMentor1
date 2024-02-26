@@ -1,0 +1,49 @@
+@import 'variables.scss';
+@import 'ingredients';
+@import 'first';
+@import 'content.scss';
+@import 'initial.scss';
+@import 'instructions.scss';
+@import 'nutrition.scss';
+
+
+
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body{
+    font-family: outfit, sans-serif;
+    font-size: 16px;
+    @media (min-width: 740px){
+        background-color: $Eggshell;
+    }
+}
+
+//nesting
+.main-container{
+    width: 375px;
+    margin: auto;
+    background-color: $White;
+    @media (min-width: 740px){
+        width: 740px;
+        border-radius: 20px;
+    }
+}
+
+//header
+.header__image{
+    width: 100%;
+    @media (min-width: 740px){
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-top: 30px;
+        position: relative;
+        right:30px;
+        border-radius: 20px;
+    }
+}
+header{
+    @media (min-width: 740px){
+        margin: 30px;
+    }
+}

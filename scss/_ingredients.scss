@@ -1,0 +1,22 @@
+@use 'variables';
+.ingredients{
+    margin: 10px;
+    h2{
+        font-family: young serif, sans-serif;
+        color: $Nutmeg;
+        font-weight: lighter;
+    }
+}
+.ingredients__list{
+    margin:10px;
+    padding: 10px;
+    ul{
+        color: $Nutmeg;
+        li{
+            padding: 7px;
+            p{
+                color: $Wenge-Brown;
+            }
+        }
+    }
+}

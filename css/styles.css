@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+.ingredients {
+  margin: 10px;
+}
+.ingredients h2 {
+  font-family: young serif, sans-serif;
+  color: hsl(14, 45%, 36%);
+  font-weight: lighter;
+}
+
+.ingredients__list {
+  margin: 10px;
+  padding: 10px;
+}
+.ingredients__list ul {
+  color: hsl(14, 45%, 36%);
+}
+.ingredients__list ul li {
+  padding: 7px;
+}
+.ingredients__list ul li p {
+  color: hsl(30, 10%, 34%);
+}
+
+.first {
+  border: white solid 1px;
+  margin: 10px;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 15px;
+  height: 200px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: start;
+}
+
+.first__preptime {
+  margin: 17px;
+}
+
+.first__list {
+  margin: 10px;
+}
+
+.first__list--items {
+  margin: 10px;
+}
+.first__list--items li {
+  margin: 10px;
+  padding: 5px;
+  color: hsl(332, 51%, 32%);
+}
+.first__list--items li span {
+  font-weight: bold;
+}
+.first__list--items li p {
+  color: hsl(30, 10%, 34%);
+}
+
+.first__preptime--h3 {
+  color: hsl(332, 51%, 32%);
+}
+
+.content {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding: 10px;
+  margin: 10px;
+}
+
+.content__title {
+  margin: 10px;
+  color: hsl(24, 5%, 18%);
+  font-family: young serif, sans-serif;
+  font-size: large;
+}
+
+.content__description {
+  margin: 10px;
+  color: hsl(30, 10%, 34%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.instructions {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  margin: 17px;
+  padding: 10px;
+}
+.instructions h2 {
+  font-family: young serif, sans serif;
+  color: hsl(14, 45%, 36%);
+  font-weight: lighter;
+}
+
+.instructions__list {
+  margin: 10px;
+  padding: 10px;
+}
+.instructions__list ol {
+  color: hsl(14, 45%, 36%);
+}
+.instructions__list ol li {
+  margin: 8px;
+  font-weight: bold;
+}
+.instructions__list ol li span {
+  color: hsl(30, 10%, 34%);
+  font-weight: bold;
+}
+.instructions__list ol li p {
+  color: hsl(30, 10%, 34%);
+  font-weight: lighter;
+  margin: 8px;
+}
+
+.nutrition {
+  margin: 10px;
+  padding: 10px;
+}
+.nutrition h2 {
+  font-family: young serif, sans serif;
+  color: hsl(14, 45%, 36%);
+  font-weight: lighter;
+}
+
+.nutrition__text p {
+  color: hsl(30, 10%, 34%);
+  margin-top: 12px;
+  margin-bottom: 13px;
+}
+
+.nutrition__table div {
+  display: flex;
+  margin: 17px;
+  padding: 10px;
+  justify-content: space-evenly;
+  border-bottom: hsl(30, 18%, 87%) 1px solid;
+}
+.nutrition__table div p {
+  color: hsl(30, 10%, 34%);
+}
+.nutrition__table div span {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+body {
+  font-family: outfit, sans-serif;
+  font-size: 16px;
+}
+@media (min-width: 740px) {
+  body {
+    background-color: hsl(30, 54%, 90%);
+  }
+}
+
+.main-container {
+  width: 375px;
+  margin: auto;
+  background-color: hsl(0, 0%, 100%);
+}
+@media (min-width: 740px) {
+  .main-container {
+    width: 740px;
+    border-radius: 20px;
+  }
+}
+
+.header__image {
+  width: 100%;
+}
+@media (min-width: 740px) {
+  .header__image {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    position: relative;
+    right: 30px;
+    border-radius: 20px;
+  }
+}
+
+@media (min-width: 740px) {
+  header {
+    margin: 30px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

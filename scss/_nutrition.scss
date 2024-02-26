@@ -1,0 +1,35 @@
+@use 'variables';
+
+.nutrition{
+    margin: 10px;
+    padding: 10px;
+    h2{
+        font-family: young serif, sans serif;
+        color: $Nutmeg;
+        font-weight: lighter;
+    }
+}
+.nutrition__text{
+    p{
+        color: $Wenge-Brown;
+        margin-top: 12px;
+        margin-bottom: 13px;
+    }
+}
+.nutrition__table{
+    div{
+        display: flex;
+        margin:17px;
+        padding: 10px;
+        justify-content: space-evenly;
+        border-bottom: $Light-Grey 1px solid;
+        p{
+          color: $Wenge-Brown;
+        }
+        span{
+           color: $Nutmeg;
+           font-weight: bold;
+        }
+    }
+
+}

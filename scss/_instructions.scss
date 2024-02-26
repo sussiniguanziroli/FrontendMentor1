@@ -1,0 +1,32 @@
+@use 'variables';
+
+.instructions{
+    border-bottom: 1px solid $Light-Grey;
+    margin: 17px;
+    padding: 10px;
+    h2{
+        font-family: young serif, sans serif;
+        color:$Nutmeg ;
+        font-weight: lighter;
+    }
+}
+.instructions__list{
+    margin: 10px;
+    padding: 10px;
+    ol{
+        color: $Nutmeg;
+        li{
+            span{
+                color: $Wenge-Brown;
+                font-weight: bold;
+            }
+            p{
+                color: $Wenge-Brown;
+                font-weight: lighter;
+                margin: 8px;
+            }
+            margin: 8px;
+            font-weight: bold;
+        }
+    }
+}
